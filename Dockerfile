@@ -5,4 +5,4 @@ ADD index.html /usr/share/nginx/html/
 
 WORKDIR /application
 COPY . .
-RUN "sh" "run.sh"
+EXPOSE 80
